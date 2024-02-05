@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Flick Regular";
+  src: url("bd46c2e5f4eef760f3d07bd22fa919f2.woff2") format("woff2"),
+      url("bd46c2e5f4eef760f3d07bd22fa919f2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Flick Medium";
+  src: url("30269a6cd44fbaef296503f548057bfa.woff2") format("woff2"),
+      url("30269a6cd44fbaef296503f548057bfa.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+.text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 15px 30px rgba(0,0,0,0.2), 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+.F-R {
+  font-family: "Flick Regular" !important;
+  font-weight: 400 !important;
+}
+
+.F-M {
+  font-family: "Flick Medium" !important;
+}
+
+strong {
+  font-family: "Flick medium" !important;
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input {
+  text-align-last: center;
+}
+
+.noUi-horizontal .noUi-handle {
+  background-color: rgb(252,211,77) !important;
+}
+
+.noUi-handle:before, .noUi-handle:after {
+  background: #000;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  border: 1px solid black;
+}
